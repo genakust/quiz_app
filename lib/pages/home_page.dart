@@ -12,29 +12,31 @@ class _HomePageState extends State<HomePage> {
       appBar: AppBar(
         title: Text('Quizz'),
       ),
-      body: Column(
-        children: [
-          Container(
-            padding: EdgeInsets.all(10.0),
-            child: Text('Frage'),
-          ),
-          Container(
-            padding: EdgeInsets.all(10.0),
-            child: Text('Antwort 1'),
-          ),
-          Container(
-            padding: EdgeInsets.all(10.0),
-            child: Text('Antwort 2'),
-          ),
-          Container(
-            padding: EdgeInsets.all(10.0),
-            child: Text('Antwort 3'),
-          ),
-          Container(
-            padding: EdgeInsets.all(10.0),
-            child: Text('Antwort 4'),
-          ),
-        ],
+      body: Center(
+        child: Column(
+          children: [
+            Container(
+              padding: EdgeInsets.all(10.0),
+              child: Text('Frage'),
+            ),
+            Container(
+              padding: EdgeInsets.all(10.0),
+              child: Text('Antwort 1'),
+            ),
+            Container(
+              padding: EdgeInsets.all(10.0),
+              child: Text('Antwort 2'),
+            ),
+            Container(
+              padding: EdgeInsets.all(10.0),
+              child: Text('Antwort 3'),
+            ),
+            Container(
+              padding: EdgeInsets.all(10.0),
+              child: Text('Antwort 4'),
+            ),
+          ],
+        ),
       ),
     );
   }
