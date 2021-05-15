@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:quiz_app/widgets/answer.dart';
 
 class HomePage extends StatefulWidget {
   @override
@@ -15,26 +16,10 @@ class _HomePageState extends State<HomePage> {
       body: Center(
         child: Column(
           children: [
-            Container(
-              padding: EdgeInsets.all(10.0),
-              child: Text('Frage'),
-            ),
-            Container(
-              padding: EdgeInsets.all(10.0),
-              child: Text('Antwort 1'),
-            ),
-            Container(
-              padding: EdgeInsets.all(10.0),
-              child: Text('Antwort 2'),
-            ),
-            Container(
-              padding: EdgeInsets.all(10.0),
-              child: Text('Antwort 3'),
-            ),
-            Container(
-              padding: EdgeInsets.all(10.0),
-              child: Text('Antwort 4'),
-            ),
+            Answer(),
+            Answer(),
+            Answer(),
+            Answer(),
           ],
         ),
       ),
